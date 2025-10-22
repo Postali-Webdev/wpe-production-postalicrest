@@ -1,0 +1,23 @@
+.awards-block {
+    padding: 60px 0;
+    position: relative;
+    text-align: center;
+    padding:0;
+    .columns {
+        justify-content: center;
+        #awards {            
+            padding: 40px;
+            margin: 0 60px;
+            border-radius: 20px;
+            z-index: 0;
+            display:grid;
+            width: 100%;
+            @include respond(phone) {
+                padding: 0;
+            }
+            &.slick-slide {
+                padding: 0 30px !important;
+            }
+        }
+    }
+}
