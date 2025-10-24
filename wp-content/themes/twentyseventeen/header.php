@@ -11,8 +11,6 @@
  * @since Twenty Seventeen 1.0
  * @version 1.0
  * 
- * 
- * THIS IS A GITHUB ACTION TEST
  */
 
 ?><!DOCTYPE html>
